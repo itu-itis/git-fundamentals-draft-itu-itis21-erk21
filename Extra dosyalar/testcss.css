@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+p.paragraf1 {
+    color: yellow;
+    border:thin solid white;
+    width: 25%;
+    padding: 1ex;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img.skyresize {
+    width: 40%;
+    height: auto;
+    border: thick solid skyblue;
+}
+
+table {
+    color: white;
+    border: solid aqua;
+    border-radius: 3ex;
+    padding: 1ex;
+}
+
+h2 {
+    color: white;
+}
