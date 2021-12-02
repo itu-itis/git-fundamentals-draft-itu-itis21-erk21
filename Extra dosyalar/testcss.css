@@ -49,3 +49,8 @@ h2.centered {
 th {
     color: violet;
 }
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
