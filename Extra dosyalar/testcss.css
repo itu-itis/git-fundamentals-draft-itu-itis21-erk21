@@ -54,3 +54,13 @@ em {
     font-weight: bold;
     font-style: normal;
 }
+
+legend {
+    color: aqua;
+    outline: white;
+    text-align: center;
+}
+
+div.form {
+    color: azure;
+}

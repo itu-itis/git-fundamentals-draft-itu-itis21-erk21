@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="./testcss.css">
     </head>
 
-    <body>
+    <body onload="sayHello()">
         <p class="paragraf1">Burada bir paragraf kelimeler cart curt.</p>
 
         <p>Beyaz bir paragraf.</p>
@@ -38,8 +38,33 @@
                 <td>33</td>
             </tr>
         </table>
+        
+        <form>
+        <fieldset>
+            <legend> Form Deneme </legend>
+            
+            <div class="form">
+                <label>Eposta:</label>
+                <input type="email">
+            </div>
 
+            <div class="form">
+                <label>Password:</label>
+                <input type="password">
+            </div>
 
+            <div>
+                <button type="submit">Gönder</button>
+            </div>
+
+        </fieldset>
+        </form>
+
+        <script>
+            function sayHello() {
+                alert("Sa");
+            }
+        </script>
 
     </body>
 
